@@ -1,0 +1,17 @@
+#overonslayout {
+  display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
+  grid-template-areas: "menu"
+                       "video";
+}
+
+#menu {
+  grid-area: menu;
+  margin-bottom: 0px;
+}
+
+#video {
+  grid-area: video;
+  margin-top: 0px;
+}

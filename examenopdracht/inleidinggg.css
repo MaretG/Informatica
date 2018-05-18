@@ -1,0 +1,64 @@
+#inleiding {
+  display: grid;
+	grid-template-columns: auto 600px auto;
+	grid-template-rows: auto auto auto auto;
+    grid-template-areas: ". inleidingtitel ."
+                         ". inleidingondertitel ."
+                         ". inleidingtekst ."
+                         ". inleidingfotos .";
+}
+
+#inleidingtitel {
+  grid-area: inleidingtitel;
+  text-align: center;
+}
+
+#inleidingtitel>p{
+  font-family: "Segoe UI",Arial,sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+#inleidingondertitel {
+  grid-area: inleidingondertitel;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#inleidingondertitel>p {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #74767a;
+}
+
+#inleidingtekst {
+  grid-area: inleidingtekst;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#inleidingtekst> p {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 600px;
+}
+
+#inleidingfotos {
+  grid-area: inleidingfotos;
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+#inleidingfotos> img {
+  float: center;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  
+}

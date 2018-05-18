@@ -1,0 +1,62 @@
+#newbloemen {
+  display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+  grid-template-areas: "roses bloemendoos orchidee";
+}
+
+#roses {
+  grid-area: roses;
+  text-align: left;
+  background-color: white;
+  width: 230px;
+  
+}
+
+#roses>h7  {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  
+}
+
+#roses>p  {
+  
+}
+
+#roses>a {
+  
+}
+
+#bloemendoos{
+  grid-area: bloemendoos;
+  text-align: center;
+  background-color: white;
+  width: 230px;
+}
+
+#bloemendoos>h7  {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+ 
+}
+#bloemendoos>p  {
+  
+}
+
+#orchidee {
+  grid-area: orchidee;
+  text-align: center;
+  background-color: white;
+  width: 230px;
+    
+}
+
+#orchidee>h7 {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  
+}
+
+#orchidee>p {
+  
+}

@@ -1,0 +1,50 @@
+#bestel {
+  display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto;
+  grid-template-areas: "logo"
+                       "besteljebloemen"
+                       "socialmedia";
+  
+}
+
+#logo {
+  grid-area: logo;
+  margin: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#besteljebloemen {
+  grid-area: besteljebloemen;
+  text-align: center;
+  margin: 30px;
+}
+
+#besteljebloemen>a {
+  text-decoration: none;
+  text-align: center;
+  background-color: black; 
+  color: white; 
+  padding: 15px;
+}
+
+#besteljebloemen>a:hover {
+  background-color: #ccc!important;
+  color: black;
+}
+
+#socialmedia {
+  grid-area: socialmedia;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 55px;
+}
+
+#socialmedia>i {
+  font-size:25px;
+}
+
+#socialmedia>i: hover {
+  color: #ccc!important;
+}
